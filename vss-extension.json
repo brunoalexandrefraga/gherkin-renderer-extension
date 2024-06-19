@@ -1,0 +1,46 @@
+{
+    "manifestVersion": 1,
+    "id": "gherkin-renderer-fork",
+    "publisher": "brunoalexandrefraga",
+    "version": "0.0.1",
+    "name": "Gherkin Renderer Fork",
+    "public":false,
+    "description": "Visual Studio Services extension to preview gherkin files in browser",
+    "categories": [
+        "Azure Repos"
+    ],
+    "galleryFlags": [
+        "Public"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "default_icon_128.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        },
+        {
+            "path": "screenshots",
+            "addressable": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/brunoalexandrefraga/gherkin-renderer-extension"
+    }
+}

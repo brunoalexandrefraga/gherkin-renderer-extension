@@ -24,6 +24,7 @@
             "jest",
             "node"
         ],
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "ignoreDeprecations": "5.0"
     }
 }

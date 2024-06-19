@@ -4,7 +4,7 @@
     "publisher": "brunoalexandrefraga",
     "version": "0.0.1",
     "name": "Gherkin Renderer Fork",
-    "public":false,
+    "public": false,
     "description": "Visual Studio Services extension to preview gherkin files in browser",
     "categories": [
         "Azure Repos"
